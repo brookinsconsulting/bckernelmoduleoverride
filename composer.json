@@ -1,0 +1,29 @@
+{
+    "name": "brookinsconsulting/bckernelmoduleoverride",
+    "description": "BC Kernel Module Override is a simple eZ Publish Platform (Legacy) kernel override extension which overrides the default ezmodule class to provide a simple feature it allows extension based module views to override default kernel module views. Great for advanced developers!",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "kernel override", "class", "ezmodule", "extension", "module", "override" ],
+    "homepage": "https://github.com/brookinsconsulting/bckernelmoduleoverride",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name" : "Brookins Consulting",
+            "homepage": "http://brookinsconsulting.com",
+            "email": "info@brookinsconsulting.com",
+            "role": "Developer"
+        },
+        {
+            "name" : "eZ Systems AS",
+            "homepage": "https://github.com/ezsystems",
+            "role": "Original Class Author"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "ezsystems/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "bckernelmoduleoverride"
+    }
+}
